@@ -57,17 +57,20 @@ By default, logs/bedrock_chatbot.log is created under a logs/ folder. Ensure the
 
 ## Project Structure
 
-├── chat_app.py            # Streamlit chat UI  
-├── bedrock_api.py         # Wrapper for Amazon Bedrock calls  
-├── metrics.py             # Records invocation metrics to SQLite   
-├── logging_config.py      # Rotating-file logging setup     
-├── requirements.txt       # Python dependencies       
-├── monitoring/     
-    └──  dashboard.py      # Streamlit dashboard for logs & metrics   
+├── chat_app.py    # Streamlit chat UI    
+├── bedrock_api.py    # Wrapper for Amazon Bedrock calls   
+├── metrics.py     # Records invocation metrics to SQLite     
+├── logging_config.py    # Rotating-file logging setup    
+├── requirements.txt    # Python dependencies    
+├── monitoring/    
+│ └── dashboard.py   # Streamlit dashboard for logs & metrics    
 ├── metrics/    
-    └── metrics.db         # SQLite database (created at runtime)     
-└── logs/  
-    └── bedrock_chatbot.log # Rotating log file  
+│ └── metrics.db    # SQLite database (created at runtime)     
+└── logs/    
+│ └── bedrock_chatbot.log    # Rotating log file     
+└── docs/    
+│ └── ARCHITECTURE_DOCUMENT.md    # Architecture document file      
+│ └── TECHNICAL_WRITEUP.md    # Technical write up file  
 
 
 ## License
