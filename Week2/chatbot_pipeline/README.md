@@ -55,6 +55,10 @@ By default, logs/bedrock_chatbot.log is created under a logs/ folder. Ensure the
 
 - Plots invocation latency and success/failure from metrics.db.
 
+### Run the Test and Test Coverage Report     
+
+`python -m pytest --cov=. `
+
 ## Project Structure
 
 ├── chat_app.py    # Streamlit chat UI    

@@ -109,6 +109,10 @@ A Streamlit-based chat application that routes user messages to Amazon Bedrock (
      ```bash
      streamlit run dashboard.py
      ```
+  4. Run the test and test coverage report:  
+     ```bash
+     python -m pytest --cov=. 
+     ```
 
 ## 6. Tech Stack
 

@@ -100,3 +100,6 @@
 
 4. **Run Dashboard (separate terminal):**     
     `streamlit run monitoring/dashboard.py`
+
+5. **Run Test and Test Coverage Report:**
+    `python -m pytest --cov=.`
