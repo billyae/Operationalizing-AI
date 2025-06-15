@@ -7,7 +7,6 @@ def authenticate_aws(access_key: str, secret_key: str, region: str = 'us-east-1'
     Returns True if credentials are valid, False otherwise.
     """
 
-    
     try:
 
         client = boto3.client(

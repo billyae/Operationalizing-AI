@@ -42,4 +42,8 @@ To force a fresh schema (and wipe old logs), delete the file:
 
 ```streamlit run app.py --server.port 8501```
 
+## 5. Run the Test with Coverage Report
+
+```python -m pytest tests --disable-warnings --cov=./ --cov-report=term-missing ```
+
 

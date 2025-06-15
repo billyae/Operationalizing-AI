@@ -1,5 +1,3 @@
-# logging_api.py
-
 import sqlite3
 from typing import List
 from fastapi import FastAPI, HTTPException

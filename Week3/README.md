@@ -104,6 +104,12 @@ Open three terminals (or use tmux/docker-compose):
 
 ```streamlit run app.py --server.port 8501```
 
+## Testing the Service
+
+### Generate the Test Report with Test Coverage
+```bash
+python -m pytest tests --disable-warnings --cov=./ --cov-report=term-missing
+```
 ## API Reference
 
 ### Chat API

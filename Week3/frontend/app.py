@@ -6,7 +6,6 @@ import requests
 # ─── Constants ─────────────────────────────────────────────────────────────────
 API_URL = "http://localhost:8000/chat"
 
-
 def get_user_id(access_key: str) -> str:
     """
     Compute a stable user identifier by hashing the AWS access key.

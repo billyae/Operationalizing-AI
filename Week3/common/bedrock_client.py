@@ -37,7 +37,7 @@ def invoke_chat_model(
     :raises RuntimeError:        On invocation failure or unrecognized response shape
     """
 
-    # 1) Separate system prompt and prepare message list
+    # Separate system prompt and prepare message list
     system_prompt = None
     chat_messages = []
     for m in messages:
@@ -48,14 +48,14 @@ def invoke_chat_model(
         else:
             chat_messages.append({"role": role, "content": content})
 
-    # 1b) Ensure the first message is from the user by dropping any leading non-user turns
+    # Ensure the first message is from the user by dropping any leading non-user turns
     while chat_messages and chat_messages[0].get("role") != "user":
         chat_messages.pop(0)
 
     if not chat_messages or chat_messages[0].get("role") != "user":
         raise RuntimeError("No user message found in the conversation to send to Anthropic Claude.")
 
-    # 2) Build the native Bedrock request body
+    # Build the native Bedrock request body
     ver = anthropic_version
     if not ver.startswith("bedrock-"):
         ver = f"bedrock-{ver}"
@@ -71,21 +71,24 @@ def invoke_chat_model(
 
     body_bytes = json.dumps(body).encode("utf-8")
 
-    # 3) Create Bedrock Runtime client
-    client = boto3.client(
-        "bedrock-runtime",
-        aws_access_key_id=access_key,
-        aws_secret_access_key=secret_key,
-        region_name=region,
-        config=Config(
-            retries=_RETRIES,
-            read_timeout=_READ_TIMEOUT,
-            connect_timeout=_CONNECT_TIMEOUT
+    # Create Bedrock Runtime client
+    try:
+        client = boto3.client(
+            "bedrock-runtime",
+            aws_access_key_id=access_key,
+            aws_secret_access_key=secret_key,
+            region_name=region,
+            config=Config(
+                retries=_RETRIES,
+                read_timeout=_READ_TIMEOUT,
+                connect_timeout=_CONNECT_TIMEOUT
+            )
         )
-    )
+    except ClientError as e:
+        raise RuntimeError(f"Anthropic invocation failed: {e}")
 
     try:
-        # 4) Invoke the model
+        # Invoke the model
         resp = client.invoke_model(
             modelId=model_id,
             contentType="application/json",
@@ -93,17 +96,17 @@ def invoke_chat_model(
             body=body_bytes
         )
 
-        # 5) Read and parse the response
+        # Read and parse the response
         raw = resp["body"].read().decode("utf-8")
         data = json.loads(raw)
 
-        # 6a) Legacy completions API
+        # Legacy completions API
         if "completions" in data:
             return data["completions"][0]["completion"]
         if "completion" in data:
             return data["completion"]
 
-        # 6b) Messages API → top-level "content" blocks
+        # Messages API → top-level "content" blocks
         if "content" in data and isinstance(data["content"], list):
             return "".join(
                 block.get("text", "")
@@ -111,7 +114,7 @@ def invoke_chat_model(
                 if block.get("type") == "text"
             )
 
-        # 6c) Alternative: top-level "messages" list
+        # Alternative: top-level "messages" list
         if "messages" in data and isinstance(data["messages"], list):
             for msg in data["messages"]:
                 if msg.get("role") == "assistant":

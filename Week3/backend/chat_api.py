@@ -1,5 +1,3 @@
-# chat_api.py
-
 import os
 import time
 import requests
@@ -41,11 +39,11 @@ def chat(request: ChatRequest) -> Dict[str, str]:
     3) Send audit log (user_id, prompt, response, latency_ms, success)
     4) Return the assistant's response or error
     """
-    # 1) Validate credentials
+    # Validate credentials
     if not authenticate_aws(request.access_key, request.secret_key, request.region):
         raise HTTPException(status_code=401, detail="Invalid AWS credentials")
 
-    # 2) Invoke model and measure performance
+    # Invoke model and measure performance
     start = time.perf_counter()
     try:
         reply = invoke_chat_model(
@@ -61,7 +59,7 @@ def chat(request: ChatRequest) -> Dict[str, str]:
         success = False
     latency_ms = (time.perf_counter() - start) * 1000
 
-    # 3) Audit logging
+    # Audit logging
     last_prompt = request.messages[-1].get("content", "")
     log_entry = {
         "user_id":    request.user_id,
@@ -72,7 +70,7 @@ def chat(request: ChatRequest) -> Dict[str, str]:
     }
     send_audit_log(log_entry)
 
-    # 4) Return or error
+    # Return or error
     if not success:
         raise HTTPException(status_code=500, detail=reply)
 
