@@ -1,0 +1,24 @@
+# Web framework
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+
+# Transformers & vision
+torch==2.0.1
+transformers==4.34.0
+Pillow==10.0.0
+
+# Hugging-Face client & numpy pin
+huggingface_hub==0.16.4
+numpy<2.0.0
+
+# HTTP client
+requests==2.31.0
+httpx==0.26.0
+python-multipart==0.0.20
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.0.0
+pytest-asyncio==0.21.0
+
+prometheus_client==0.16.0

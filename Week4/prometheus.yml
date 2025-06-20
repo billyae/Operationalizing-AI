@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'gateway'
+    static_configs:
+      - targets: ['localhost:8000']
+
+  - job_name: 'image_service'
+    static_configs:
+      - targets: ['localhost:8001']
+
+  - job_name: 'text_service'
+    static_configs:
+      - targets: ['localhost:8002']
