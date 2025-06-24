@@ -85,3 +85,6 @@ docker run --env-file .env -p 8501:8501 dukebot-secure
 
 ---
 For more details, see the technical documentation and user manual in the `doc/` folder. 
+
+## 8. Our Practice
+Deployment on Huggingface Space: https://huggingface.co/spaces/billyae/DukeChatbot

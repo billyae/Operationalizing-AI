@@ -24,3 +24,9 @@ week 1:  https://huggingface.co/spaces/yiqing111/AIPI561_project1
 week 2:  https://huggingface.co/spaces/yiqing111/aipi_project2
 
 week 3:  https://huggingface.co/spaces/yiqing111/aipi561_project3_1
+
+week 4:
+
+week 5:
+
+week 6: https://huggingface.co/spaces/billyae/DukeChatbot
