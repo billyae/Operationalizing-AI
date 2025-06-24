@@ -1,12 +1,15 @@
-# 🔒 DukeBot Security Framework
+# 🔒 Responsible AI and Security - DukeBot Security Framework
 
-A comprehensive security, privacy, and responsible AI implementation for the Duke University chatbot project, designed to meet enterprise-grade standards and academic requirements.
+This mini-project serves as a preliminary assignment and update for the final project, primarily focusing on Responsible AI and Security implementation. This project emphasizes the integration of comprehensive security measures, privacy controls, and audit systems into the DukeBot AI assistant.
 
 Deployment on Huggingface Space: https://huggingface.co/spaces/billyae/DukeChatbot
 
 ## 📋 Overview
 
 DukeBot is a secure, privacy-focused chatbot for Duke University. It provides information about academic programs, campus events, and more, while protecting user privacy and ensuring responsible AI use. The system is built with defense-in-depth security, privacy-by-design, and responsible AI best practices.
+
+This security-focused iteration demonstrates responsible AI practices and prepares the foundation for the final project, ensuring that the AI assistant meets enterprise-level security and privacy standards while maintaining its core educational functionality.
+
 
 ## 🚀 Quick Start
 

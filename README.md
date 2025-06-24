@@ -1,10 +1,12 @@
 # AIPI561
 
-Mini Projects of Duke AIPI561 - LLMops   
+Mini Projects and final project of Duke AIPI561 - LLMops   
 
 Team members: Zihao Yang, Reina Shi, Yiqing Liu
 
 All the projects were completed by team together.
+
+Final Repo: https://github.com/billyae/AIPI561-Final-Project
 
 
 ## Progress
