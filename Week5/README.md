@@ -9,7 +9,7 @@
 
 ## 📋 Project Overview
 
-**Week 9: Application Development with Bedrock**  
+**Week 5: Application Development with Bedrock**  
 *Develop full-stack applications using Amazon Bedrock, incorporating best practices for production deployments.*
 
 This is a complete **Mini-Project: Full-Stack AI Application** that demonstrates enterprise-grade development practices with AWS Bedrock. The application features a modern web interface, robust backend services, comprehensive authentication system, and real-time monitoring capabilities.
