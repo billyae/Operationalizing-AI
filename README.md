@@ -1,7 +1,9 @@
 # AIPI561
 
 Mini Projects of Duke AIPI561 - LLMops   
+
 Team members: Zihao Yang, Reina Shi, Yiqing Liu
+
 All the projects were completed by team together.
 
 
@@ -16,5 +18,7 @@ All the projects were completed by team together.
 ## Deployment:
 
 week 1:  https://huggingface.co/spaces/yiqing111/AIPI561_project1
+
 week 2:  https://huggingface.co/spaces/yiqing111/aipi_project2
+
 week 3:  https://huggingface.co/spaces/yiqing111/aipi561_project3_1
