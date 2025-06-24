@@ -13,6 +13,8 @@ All the projects were completed by team together.
 6/5/2025: AI Orchestration Pipeline with Amazon Bedrock.     
 6/15/2025: Enterprise Bedrock Chatbot.     
 6/20/2025: Multi-Modal AI Service.
+6/23/2025: Application Development with Bedrock
+6/23/2025: Responsible AI and Security
 
 
 ## Deployment:
