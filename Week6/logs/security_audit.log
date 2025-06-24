@@ -1,0 +1,31 @@
+2025-06-23 21:37:31,171 - botocore.credentials - INFO - Found credentials in environment variables.
+2025-06-23 21:37:31,413 - SecurityAuditor - INFO - Security Event: agent_initialized | Severity: medium | User: system | Details: {'agent_type': 'SecureDukeAgent'}
+2025-06-23 21:37:33,409 - SecurityAuditor - INFO - Security Event: successful_query | Severity: low | User: cde78a0fb0eed50e | Details: {'query_length': 5, 'response_length': 122, 'processing_time': 1.9952549934387207, 'ai_analysis': {'bias_indicators': [], 'confidence_level': 'medium', 'recommendations': ['Consider acknowledging uncertainty']}}
+2025-06-23 21:37:33,411 - SecurityAuditor - INFO - Security Event: ui_interaction | Severity: low | User: cde78a0fb0eed50e | Details: {'query_length': 5, 'response_length': 122}
+2025-06-23 21:39:11,590 - botocore.credentials - INFO - Found credentials in environment variables.
+2025-06-23 21:39:11,785 - SecurityAuditor - INFO - Security Event: agent_initialized | Severity: medium | User: system | Details: {'agent_type': 'SecureDukeAgent'}
+2025-06-23 21:39:13,197 - SecurityAuditor - INFO - Security Event: tool_usage | Severity: low | User: user | Details: {'tool': 'pratt_search', 'input_length': 12}
+2025-06-23 21:39:19,182 - SecurityAuditor - INFO - Security Event: successful_query | Severity: low | User: cde78a0fb0eed50e | Details: {'query_length': 29, 'response_length': 1101, 'processing_time': 7.395794630050659, 'ai_analysis': {'bias_indicators': ['all'], 'confidence_level': 'medium', 'recommendations': ['Consider acknowledging uncertainty']}}
+2025-06-23 21:39:19,186 - SecurityAuditor - INFO - Security Event: ui_interaction | Severity: low | User: cde78a0fb0eed50e | Details: {'query_length': 29, 'response_length': 1101}
+2025-06-23 21:41:57,546 - botocore.credentials - INFO - Found credentials in environment variables.
+2025-06-23 21:41:57,730 - SecurityAuditor - INFO - Security Event: agent_initialized | Severity: medium | User: system | Details: {'agent_type': 'SecureDukeAgent'}
+2025-06-23 21:42:00,473 - SecurityAuditor - INFO - Security Event: tool_usage | Severity: low | User: user | Details: {'tool': 'get_people_info', 'input_length': 4}
+2025-06-23 21:42:08,305 - SecurityAuditor - INFO - Security Event: successful_query | Severity: low | User: e025bf37915f7843 | Details: {'query_length': 11, 'response_length': 881, 'processing_time': 10.574464082717896, 'ai_analysis': {'bias_indicators': [], 'confidence_level': 'medium', 'recommendations': ['Consider acknowledging uncertainty']}}
+2025-06-23 21:42:08,306 - SecurityAuditor - INFO - Security Event: ui_interaction | Severity: low | User: e025bf37915f7843 | Details: {'query_length': 11, 'response_length': 881}
+2025-06-23 21:52:31,427 - __main__ - INFO - Configured for development environment
+2025-06-23 21:52:51,824 - __main__ - INFO - Configured for development environment
+2025-06-23 21:53:44,199 - __main__ - INFO - Configured for development environment
+2025-06-23 21:56:06,422 - botocore.credentials - INFO - Found credentials in environment variables.
+2025-06-23 21:56:06,690 - SecurityAuditor - INFO - Security Event: agent_initialized | Severity: medium | User: system | Details: {'agent_type': 'SecureDukeAgent'}
+2025-06-23 21:56:09,387 - SecurityAuditor - INFO - Security Event: successful_query | Severity: low | User: f80bebff8cff46fb | Details: {'query_length': 5, 'response_length': 122, 'processing_time': 2.6962051391601562, 'ai_analysis': {'bias_indicators': [], 'confidence_level': 'medium', 'recommendations': ['Consider acknowledging uncertainty']}}
+2025-06-23 21:56:09,390 - SecurityAuditor - INFO - Security Event: ui_interaction | Severity: low | User: f80bebff8cff46fb | Details: {'query_length': 5, 'response_length': 122}
+2025-06-23 21:57:31,199 - __main__ - INFO - Configured for development environment
+2025-06-23 21:58:14,152 - botocore.credentials - INFO - Found credentials in environment variables.
+2025-06-23 21:58:14,335 - SecurityAuditor - INFO - Security Event: agent_initialized | Severity: medium | User: system | Details: {'agent_type': 'SecureDukeAgent'}
+2025-06-23 21:58:19,012 - SecurityAuditor - INFO - Security Event: successful_query | Severity: low | User: f80bebff8cff46fb | Details: {'query_length': 5, 'response_length': 122, 'processing_time': 4.6764655113220215, 'ai_analysis': {'bias_indicators': [], 'confidence_level': 'medium', 'recommendations': ['Consider acknowledging uncertainty']}}
+2025-06-23 21:58:19,014 - SecurityAuditor - INFO - Security Event: ui_interaction | Severity: low | User: f80bebff8cff46fb | Details: {'query_length': 5, 'response_length': 122}
+2025-06-23 22:14:14,080 - botocore.credentials - INFO - Found credentials in environment variables.
+2025-06-23 22:14:14,327 - SecurityAuditor - INFO - Security Event: agent_initialized | Severity: medium | User: system | Details: {'agent_type': 'SecureDukeAgent'}
+2025-06-23 22:14:15,856 - SecurityAuditor - INFO - Security Event: tool_usage | Severity: low | User: user | Details: {'tool': 'get_people_info', 'input_length': 4}
+2025-06-23 22:14:25,029 - SecurityAuditor - INFO - Security Event: successful_query | Severity: low | User: 96723a444cd69c24 | Details: {'query_length': 11, 'response_length': 962, 'processing_time': 10.701369047164917, 'ai_analysis': {'bias_indicators': [], 'confidence_level': 'medium', 'recommendations': ['Consider acknowledging uncertainty']}}
+2025-06-23 22:14:25,031 - SecurityAuditor - INFO - Security Event: ui_interaction | Severity: low | User: 96723a444cd69c24 | Details: {'query_length': 11, 'response_length': 962}
