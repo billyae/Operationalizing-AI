@@ -2,6 +2,8 @@
 
 A comprehensive security, privacy, and responsible AI implementation for the Duke University chatbot project, designed to meet enterprise-grade standards and academic requirements.
 
+Deployment on Huggingface Space: https://huggingface.co/spaces/billyae/DukeChatbot
+
 ## 📋 Overview
 
 DukeBot is a secure, privacy-focused chatbot for Duke University. It provides information about academic programs, campus events, and more, while protecting user privacy and ensuring responsible AI use. The system is built with defense-in-depth security, privacy-by-design, and responsible AI best practices.
