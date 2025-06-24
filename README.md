@@ -1,5 +1,9 @@
 # AIPI561
-Mini Projects and Final Project of Duke AIPI561 - LLMops   
+
+Mini Projects of Duke AIPI561 - LLMops   
+Team members: Zihao Yang, Reina Shi, Yiqing Liu
+All the projects were completed by team together.
+
 
 ## Progress
 
@@ -7,3 +11,10 @@ Mini Projects and Final Project of Duke AIPI561 - LLMops
 6/5/2025: AI Orchestration Pipeline with Amazon Bedrock.     
 6/15/2025: Enterprise Bedrock Chatbot.     
 6/20/2025: Multi-Modal AI Service.
+
+
+## Deployment:
+
+week 1:  https://huggingface.co/spaces/yiqing111/AIPI561_project1
+week 2:  https://huggingface.co/spaces/yiqing111/aipi_project2
+week 3:  https://huggingface.co/spaces/yiqing111/aipi561_project3_1
