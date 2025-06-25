@@ -27,6 +27,25 @@ week 2:  https://huggingface.co/spaces/yiqing111/aipi_project2
 
 week 3:  https://huggingface.co/spaces/yiqing111/aipi561_project3_1
 
-week 5: https://huggingface.co/spaces/yiqing111/AIPI561_week5
+week 4 :
 
-week 6: https://huggingface.co/spaces/billyae/DukeChatbot
+Please use this command to compare the image and text similarity:
+
+```bash
+curl -X POST "https://billyae-Production-AI-Services.hf.space/compare/" \
+     -H "accept: application/json" \
+     -H "Content-Type: multipart/form-data" \
+     -F "file=@your_image.jpg" \
+     -F "text=a cat sitting on a chair"
+```
+
+Please user this command to check the service healthy:
+
+```bash
+curl https://billyae-Production-AI-Services.hf.space/health
+```  
+
+
+week 5: https://huggingface.co/spaces/yiqing111/AIPI561_week5    
+    
+week 6: https://huggingface.co/spaces/billyae/DukeChatbot    
