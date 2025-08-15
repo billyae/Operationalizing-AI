@@ -1,6 +1,6 @@
 # Operationalizing-AI
 
-Mini Projects and final project of Duke AIPI561 - LLMops   
+Mini Projects of Duke AIPI561 - LLMops   
 
 Team members: Zihao Yang, Reina Shi, Yiqing Liu
 
@@ -9,14 +9,14 @@ All the projects were completed by team together.
 Final Repo: https://github.com/billyae/AIPI561-Final-Project
 
 
-## Progress
-
-5/23/2025: Conversational AI Assistant powered by Amazon Bedrock.  
-6/5/2025: AI Orchestration Pipeline with Amazon Bedrock.  
-6/15/2025: Enterprise Bedrock Chatbot.     
-6/20/2025: Multi-Modal AI Service.  
-6/23/2025: Application Development with Bedrock.    
-6/23/2025: Responsible AI and Security. 
+## Mini Projects in each folder
+ 
+Week1: Conversational AI Assistant powered by Amazon Bedrock. 
+Week2: AI Orchestration Pipeline with Amazon Bedrock.  
+Week3: Enterprise Bedrock Chatbot.     
+Week4: Multi-Modal AI Service.  
+Week5: Application Development with Bedrock.    
+Week6: Responsible AI and Security. 
 
 
 ## Deployment:
