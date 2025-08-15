@@ -1,4 +1,4 @@
-# AIPI561
+# Operationalizing-AI
 
 Mini Projects and final project of Duke AIPI561 - LLMops   
 
