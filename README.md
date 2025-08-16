@@ -11,8 +11,8 @@ Final Repo: https://github.com/billyae/AIPI561-Final-Project
 
 ## Mini Projects in each folder
  
-Week1: Conversational AI Assistant powered by Amazon Bedrock. 
-Week2: AI Orchestration Pipeline with Amazon Bedrock.  
+Week1: Conversational AI Assistant powered by Amazon Bedrock.    
+Week2: AI Orchestration Pipeline with Amazon Bedrock.   
 Week3: Enterprise Bedrock Chatbot.     
 Week4: Multi-Modal AI Service.  
 Week5: Application Development with Bedrock.    
